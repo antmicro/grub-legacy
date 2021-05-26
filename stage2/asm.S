@@ -86,7 +86,7 @@ ENTRY(main)
 	. = EXT_C(main) + 0x8
 
 VARIABLE(install_partition)
-	.long	0xFFFFFF
+	.long	0xFFFF
 /* This variable is here only because of a historical reason.  */
 VARIABLE(saved_entryno)
 	.long	0
