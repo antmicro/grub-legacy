@@ -1,5 +1,5 @@
 pkglibdir = $(libdir)/$(PACKAGE)/$(host_cpu)-$(host_vendor)
-nodist_pkglib_DATA = stage1
+nodist_pkgdata_DATA = stage1
 
 CLEANFILES = $(nodist_pkglib_DATA)
 
