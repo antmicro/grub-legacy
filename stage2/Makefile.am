@@ -269,4 +269,4 @@ pxegrub: pxeloader diskless
 # General rule for making a raw binary.
 SUFFIXES = .exec
 .exec:
-	$(OBJCOPY) -O binary $< $@
+	$(OBJCOPY) -O binary -R .note -R .comment -R .note.gnu.build-id $< $@
