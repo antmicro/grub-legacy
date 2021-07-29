@@ -55,3 +55,4 @@ Makefile
 docs/mdate-sh
 docs/texinfo.tex
 /INSTALL
+build
