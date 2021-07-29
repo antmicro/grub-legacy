@@ -56,3 +56,4 @@ docs/mdate-sh
 docs/texinfo.tex
 /INSTALL
 build
+docs/grub.info
